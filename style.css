@@ -1,2 +1,184 @@
 @import url("mobile.css");
 @import url("tablette.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    padding: 30px;
+}
+
+header{
+    background-color: blue;
+}
+
+#zoneLigneMenu{
+    background-color: brown;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#ligne1{
+    background-color: chocolate;
+    width: 100px;
+}
+
+#ligne2{
+    background-color: crimson;
+    width: 100px;
+}
+
+#ligne3{
+    background-color: darkgrey;
+    width: 100px;
+}
+
+#zoneLogoEtMenu{
+    background-color: darkmagenta;
+    display: flex;
+    justify-content: space-between;
+}
+
+#zoneLogo{
+    background-color:darkolivegreen;
+    width: 100px;
+}
+
+header nav{
+    background-color: darkorange;
+}
+
+header ul{
+    display: flex;
+}
+
+main{
+    background-color:darkslategray;
+}
+
+aside{
+    background-color: darkturquoise;
+}
+
+#zoneTitreTxt{
+    background-color:fuchsia;
+}
+
+#barreDeRecherche{
+    background-color: honeydew;
+}
+
+form{
+    background-color: gold;
+    display: flex;
+}
+
+#zonePictoPosition{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+
+input{
+
+}
+
+#zoneBoutonRechercher{
+    background-color: greenyellow;
+    width: 50px;
+    height: 50px;
+}
+
+#zoneFiltres{
+    background-color: indianred;
+    display: flex;
+    align-items: center;
+}
+
+#filtres{
+    background-color: lightblue;
+}
+
+aside nav{
+    background-color: lightgreen;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    background-color: lightsalmon;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rond{
+    background-color: lightskyblue;
+    width: 50px;
+    height: 50px;
+}
+
+#zoneInfos{
+    background-color: lightslategrey;
+}
+
+#article1Et2{
+    background-color: limegreen;
+    display: flex;
+}
+
+#article1{
+    background-color: mediumslateblue;
+}
+
+.zoneTitre{
+    background-color: mediumvioletred;
+}
+
+#article1 .zonSection{
+    background-color:orangered;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#article1 section{
+    background-color: peru;
+    margin: 10px;
+}
+
+#article1 .images{
+    width: 236px;
+    height: 114px;
+}
+
+#article2{
+    background-color: seagreen;
+    margin-left: 30px;
+}
+
+#article2 section{
+    background-color: steelblue;
+    margin: 10px;
+    display: flex;
+}
+
+#article2 .image{
+    width: 127px;
+    height: 134px;
+}
+
+#article2 .zoneTxt{
+    background-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}
