@@ -38,6 +38,7 @@ p{
     padding: 0;
     list-style-type: none;
     text-decoration: none;
+    border: none;
 }
 
 #zoneLigneMenu,
@@ -55,9 +56,14 @@ li,
     display: flex;
 }
 
-#ligne1
+#ligne1,
+button
 {
     background-color: #0065FC;
+}
+
+#pictoCarte{
+    background-color: #F2F2F2;
 }
 
 #ligne2,
@@ -117,36 +123,51 @@ header nav a{
     margin: -4px 0px 0px 68px;
 }
 
-/* main{
-    background-color:darkslategray;
-}
-
 #zoneTitreTxt{
     margin-top: 17px;
 }
 
 #barreDeRecherche{
-    background-color: honeydew;
     margin-top: 12px;
 }
 
 form{
-    background-color: gold;
+    display: flex;
 }
 
 #zonePictoPosition{
-    background-color: red;
-    width: 50px;
-    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#pictoCarte{
+    height: 19px;
+    padding: 16px 15px 16px 15px;
+    border-radius: 15px 0px 0px 15px;
+}
+
+input{
+    width: 233px;
+    border-top: 2px solid #F2F2F2;
+    border-left: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
 }
 
 #zoneBoutonRechercher{
-    background-color: greenyellow;
-    width: 50px;
-    height: 50px;
+    display: flex;
 }
 
-#zoneFiltres{
+button{
+    font-family: 'Raleway-SemiBold';
+    letter-spacing: 1px;
+    color: white;
+    border-radius: 0px 15px 15px 0px;
+    font-size: 1em;
+    padding: 17px 17px 15px 20px;
+}
+
+/* #zoneFiltres{
     background-color: indianred;
     align-items: center;
 }
@@ -229,8 +250,6 @@ aside li{
         position: absolute;
         opacity: 0.5;
         z-index: 9999;
-        top: 0;
-        left: 0;
         width: 100%;
     }
 
@@ -299,10 +318,51 @@ aside li{
     header nav a{
         margin: 0;
     }
+
+    aside{
+        margin-top: 32px;
+        padding: 0px 21px 0px 20px;
+    }
+
+    p{
+        margin-top: 6px;
+    }
+
+    #barreDeRecherche{
+        position: relative;
+        margin-top: 27px;
+    }
+
+    input{
+        width: 100%;
+        margin-right: 40px;
+    }
+
+    #boutonRechercher{
+        display: none;
+    }
+
+    #zoneBoutonRechercher{
+        position: absolute;
+        right: 0;
+    }
+
+    #zonePictoLoupe{
+        padding: 15px 15px 12px 15px;
+        border-radius: 15px;
+    }
+
+    #pictoLoupe{
+        height: 20px;
+    }
 }
 
 @media screen and (min-width: 696px) and (max-width: 999999999999px){
     .disparaitOrdi{
+        display: none;
+    }
+
+    #zonePictoLoupe{
         display: none;
     }
 }
