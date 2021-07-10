@@ -46,7 +46,7 @@ form,
 ul,
 li,
 #article1Et2,
-#article1 .zonSection,
+#article1 .zoneSection,
 #article2 section,
 #article2 .zoneTxt
 {
@@ -241,53 +241,141 @@ aside a{
 }
 
 #article1Et2{
-    background-color: limegreen;
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+section{
+    box-shadow: 0px 5px 20px  #c7c8ca;
+    background-color: white;
+    border-radius: 20px;
 }
 
 #article1{
-    background-color: mediumslateblue;
+    background-color: #F2F2F2;
+    border-radius: 20px;
 }
 
 .zoneTitre{
-    background-color: mediumvioletred;
+    background-color: #F2F2F2;
+    border-radius: 20px 20px 0px 0px;
 }
 
-#article1 .zonSection{
-    background-color:orangered;
+#article1 .zoneSection{
     flex-wrap: wrap;
+    width: 876px;
+    justify-content: center;
+}
+
+#article1Et2 h2{
+    font-family: 'Raleway-Bold';
+    font-size: 1.35em;
+    margin: 43px 20px 20px 37px;
+    letter-spacing: 0.2px;
+}
+
+#article1 h3{
+    font-family: 'Raleway-Bold';
+    font-size: 1em;
+    margin: 0px 0px 3px 14px;
+}
+
+#article1Et2 p{
+    font-family: 'Raleway-Regular';
+    font-size: 0.9em;
+    margin: 4px 0px 3px 14px;
+}
+
+span{
+    font-family: 'Raleway-SemiBold';
+}
+
+#article1 .les5Etoiles{
+    margin: 6px 10px 8px 14px;
+}
+
+.etoileBleu, .etoileGrise{
+    width: 12px;
+    height: 12px;
+    margin-left: -2px;
 }
 
 #article1 section{
-    background-color: peru;
-    margin: 10px;
+    margin: 3px 15px 26px 15px;
+    border-radius: 17px;
 }
 
 #article1 .images{
     width: 236px;
     height: 114px;
+    border: 5px solid white;
+    border-radius: 17px 17px 0px 0px;
+}
+
+#zoneAfficherPlus{
+    font-family: 'Raleway-Bold';
+    font-size: 1.1em;
+    margin: 13px 20px 45px 42px;
 }
 
 #article2{
-    background-color: seagreen;
+    background-color: #F2F2F2;
+    border-radius: 20px;
     margin-left: 30px;
+    width: 417px;
+}
+
+.zoneTitre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#pictoGraph{
+    width: 23px;
+    height: 18px;
+    margin: 20px 35px 0px 0px;
+}
+
+#article2 .zoneSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #article2 section{
-    background-color: steelblue;
-    margin: 10px;
+    margin: 6px 0px 27px 0px;
+}
+
+#article2 h3{
+    font-family: 'Raleway-Bold';
+    font-size: 1em;
+    margin: 0px 0px 3px 18px;
+}
+
+#article2 p{
+    margin: 3px 0px 0px 18px;
 }
 
 #article2 .image{
     width: 127px;
     height: 134px;
+    border-radius: 17px 0px 0px 17px;
+    border: 5px solid white;
 }
 
 #article2 .zoneTxt{
-    background-color: violet;
     flex-direction: column;
-    justify-content: center;
-    margin-left: 10px;
+    padding: 16px 0px 0px 0px;
+    width: 210px;
+    border-radius: 0px 17px 17px 0px;
 } 
+
+#article2 .les5Etoiles{
+    margin: 39px 0px 0px 19px;
+}
 
 @media screen and (min-width: 0px) and (max-width: 1051px){
     .plan2{
