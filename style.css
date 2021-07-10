@@ -20,7 +20,7 @@ h1{
     font-size: 1.35em;
 }
 
-p{
+aside #zoneTitreTxt p{
     font-family: 'Raleway-Regular';
     line-height: 35px;
 }
@@ -60,6 +60,10 @@ li,
 button
 {
     background-color: #0065FC;
+}
+
+.rond{
+    background-color: #DEEBFF;
 }
 
 #pictoCarte{
@@ -167,29 +171,60 @@ button{
     padding: 17px 17px 15px 20px;
 }
 
-/* #zoneFiltres{
-    background-color: indianred;
+#zoneFiltres{
     align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
 }
 
 #filtres{
-    background-color: lightblue;
+    font-family: 'Raleway-Bold';
+    margin-left: 10px;
+    font-size: 1.1em;
 }
 
 aside nav{
-    background-color: lightgreen;
+    padding-left: 13px;
+}
+
+aside ul{
+    flex-wrap: wrap;
 }
 
 aside li{
-    background-color: lightsalmon;
-    margin: 20px;
+    margin: 20px 3px 20px 20px;
     align-items: center;
+    border-radius: 99999999px;
+    border-top: 2px solid #F2F2F2;
+    border-bottom: 2px solid #F2F2F2;
+    border-right: 2px solid #F2F2F2;
+    height: 45.5px;
+}
+
+#reglageRomantique a{
+    margin: 2px 17px 0px 12px;
+}
+
+aside a{
+    font-family: 'Raleway-Bold';
+    color: black;
+    font-size: 1.1em;
+    margin: 2px 23px 0px 12px;
+    letter-spacing: 0.1px;
 }
 
 .rond{
-    background-color: lightskyblue;
     width: 50px;
     height: 50px;
+    border-radius: 99999999px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picto{
+    width: 19px;
+    height: 18px;
 }
 
 #zoneInfos{
@@ -243,9 +278,9 @@ aside li{
     flex-direction: column;
     justify-content: center;
     margin-left: 10px;
-} */
+} 
 
-@media screen and (min-width: 0px) and (max-width: 695px){
+@media screen and (min-width: 0px) and (max-width: 1051px){
     .plan2{
         position: absolute;
         opacity: 0.5;
@@ -324,7 +359,7 @@ aside li{
         padding: 0px 21px 0px 20px;
     }
 
-    p{
+    aside #zoneTitreTxt p{
         margin-top: 6px;
     }
 
@@ -355,9 +390,45 @@ aside li{
     #pictoLoupe{
         height: 20px;
     }
+
+    #zoneFiltres{
+        margin-top: 22px;
+        margin-left: -7px;
+    }
+
+    #filtres{
+        margin-top: 12px;
+    }
+
+    aside nav{
+        padding-left: 0;
+    }
+
+    aside li{
+        margin: 16px 3px 0px 7px;
+        height: 43.5px;
+    }
+
+    aside a{
+        font-size: 1em;
+        margin: 0px 18px 0px 12px;
+    }
+
+    .rond{
+        height: 48px;
+        width: 48px;
+    }
+
+    #reglageRomantique{
+        margin: 16px 2px 1px 5px;
+    }
+
+    #reglageRomantique a{
+        margin: 0px 14px 0px 15px;
+    }
 }
 
-@media screen and (min-width: 696px) and (max-width: 999999999999px){
+@media screen and (min-width: 1052px) and (max-width: 999999999999px){
     .disparaitOrdi{
         display: none;
     }
