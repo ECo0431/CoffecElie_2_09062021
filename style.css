@@ -443,7 +443,7 @@ span{
     height: 153px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 1135px){
+@media screen and (min-width: 0px) and (max-width: 1407px){
     .plan2{
         position: absolute;
         opacity: 0.5;
@@ -458,6 +458,12 @@ span{
     header{
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     #ligne1{
@@ -651,18 +657,63 @@ span{
         display: none;
     }
 
+    #article3 .image,
+    #article3 .image1,
+    #article3 .image2
+    {
+        display: none;
+    }
+
+    #article3 .imgMobile{
+        width: 325px;
+        height: 114px;
+    }
+
+    #article3 #section2, #article3 #section3{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #article3{
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    #article3 .zoneSection{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #article3 .section1{
+        justify-content: flex-end;
+    }
+
+    #article3 #section2, #article3 #section3{
+        flex-direction: column;
+    }
+
+    #article3 .imgMobile{
+        border-radius: 17px 17px 0px 0px;
+    }
+
+    #article3{
+        max-width: 1103px;
+    }
+
+    #article3 h2{
+        margin-top: 0;
+    }
+
 }
 
-@media screen and (min-width: 1136px) and (max-width: 999999999999px){
-    .disparaitOrdi{
-        display: none;
-    }
+@media screen and (min-width: 1407px) and (max-width: 999999999999px){
 
-    #zonePictoLoupe{
-        display: none;
-    }
-
-    #article1 .imgMobile{
+    .disparaitOrdi,
+    #zonePictoLoupe,
+    #article1 .imgMobile,
+    #article3 .imgMobile
+    {
         display: none;
     }
 }
