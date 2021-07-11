@@ -378,6 +378,71 @@ span{
     margin: 39px 0px 0px 19px;
 }
 
+#article3{
+    margin: 0px -40px 0px -40px;
+}
+
+#article3 h2{
+    font-family: 'Raleway-Bold';
+    font-size: 1.4em;
+    margin: 61px 0px 12px 36px;
+}
+
+#article3 h3{
+    font-family: 'Raleway-Bold';
+    font-size: 1em;
+}
+
+#article3 h3{
+    margin: 17px 0px 16px 17px;
+}
+
+#article3 .zoneSection{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#article3 .section1 .image,
+#article3 #section2 .image1,
+#article3 #section2 .image2,
+#article3 #section3 .image1,
+#article3 #section3 .image2
+{
+    width: 302px;
+    border-radius: 17px 17px 0px 0px;
+}
+
+#article3 section{
+    margin: 10px 21.5px 10px 21.5px;
+}
+
+#article3 .section1 .image{
+    height: 389px;
+}
+
+#article3 #section2, #article3 #section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#article3 #section2 .image1{
+    height: 181px;
+}
+
+#article3 #section2 .image2{
+    height: 110px;
+}
+
+#article3 #section3 .image1{
+    height: 139px;
+}
+
+#article3 #section3 .image2{
+    height: 153px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1135px){
     .plan2{
         position: absolute;
