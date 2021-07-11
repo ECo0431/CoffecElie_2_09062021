@@ -17,6 +17,10 @@ h1{
     font-size: 1.35em;
 }
 
+a{
+    color: black;
+}
+
 aside #zoneTitreTxt p{
     font-family: 'Raleway-Regular';
     line-height: 35px;
@@ -83,7 +87,11 @@ h1
     font-family: 'Raleway-Bold';
 }
 
-body{
+.regular{
+    font-family: 'Raleway-Regular';
+}
+
+aside, #article1{
     padding: 0px 53.5px 0px 53.5px;
 }
 
@@ -113,6 +121,7 @@ body{
 #logo{
     width: 94px;
     height: 29px;
+    margin-left: 53.5px;
 }
 
 header nav{
@@ -378,10 +387,6 @@ span{
     margin: 39px 0px 0px 19px;
 }
 
-#article3{
-    margin: 0px -40px 0px -40px;
-}
-
 #article3 h2{
     font-family: 'Raleway-Bold';
     font-size: 1.4em;
@@ -443,6 +448,30 @@ span{
     height: 153px;
 }
 
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 52px;
+    padding: 24px 20px 20px 30px;
+    background-color: #F2F2F2;
+}
+
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 207px 20px 20px;
+}
+
+footer .bold{
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+footer .regular{
+    font-size: 1em;
+    margin-bottom: 12px;
+}
+
 @media screen and (min-width: 0px) and (max-width: 1407px){
     .plan2{
         position: absolute;
@@ -451,8 +480,8 @@ span{
         width: 100%;
     }
 
-    body{
-        padding: 0;
+    aside, #article1{
+        padding: 0px;
     }
 
     header{
@@ -705,6 +734,28 @@ span{
         margin-top: 0;
     }
 
+    footer{
+        flex-direction: column;
+        padding-left: 0px;
+    }
+
+    footer nav ul{
+        width: 100%;
+        margin-right: -10px;
+    }
+
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 375px){
+
+    header #zoneLigneMenu,
+    footer,
+    #article1Et2,
+    #article3
+    {
+        margin-right: -15px;
+    }
 }
 
 @media screen and (min-width: 1407px) and (max-width: 999999999999px){
