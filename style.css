@@ -280,6 +280,7 @@ aside li{
     border-bottom: 2px solid #F2F2F2;
     border-right: 2px solid #F2F2F2;
     height: 45.5px;
+    cursor: pointer;
 }
 
 #reglageRomantique a{
@@ -761,7 +762,7 @@ footer .regular{
     }
 }
 
-@media screen and (min-width: 1407px) and (max-width: 999999999999px){
+@media screen and (min-width: 1407px){
 
     .disparaitOrdi,
     #zonePictoLoupe,
